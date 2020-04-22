@@ -67,7 +67,7 @@
         <Key android:codes="957" android:keyLabel="ν"
 			android:popupKeyboard="@xml/keys_popup" android:popupCharacters="ⲛ" />
         <Key android:codes="956" android:keyLabel="μ"
-            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="ⲙ" />
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="ⲙⲙ̀" />
         <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete"
                 android:keyWidth="15%p" android:keyEdgeFlags="right"
                 android:isRepeatable="true"/>
