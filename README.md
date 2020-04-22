@@ -1,4 +1,4 @@
-# SKK for Android 多言語改変版
+# 多言語改変版 SKK for Android
 
 このソフトは,
 [海月玲二氏の SKK for Android](http://ray-mizuki.la.coocan.jp/software/skk_jp.html) を
