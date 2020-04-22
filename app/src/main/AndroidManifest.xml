@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.github.ha2zakura.androidskk">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <application android:label="@string/ime_name"
+        android:allowBackup="true" >
+        <service android:name=".SKKService"
+            android:permission="android.permission.BIND_INPUT_METHOD" >
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method" />
+        </service>
+
+        <activity android:name=".SKKPrefs"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:label="@string/label_pref_activity" >
+        </activity>
+        <activity android:name=".SKKDicExtractActivity"
+            android:label="@string/label_extdic_activity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" >
+        </activity>
+        <activity android:name=".SKKUserDicTool"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:label="@string/label_dictool_activity" >
+        </activity>
+        <activity android:name=".SKKDicManager"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:label="@string/label_dicmanager_activity" >
+        </activity>
+        <activity android:name=".FileChooser"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        </activity>
+        <activity android:name=".SKKMushroom"
+            android:label="@string/label_mushroom"
+            android:theme="@style/Theme.AppCompat.Light.Dialog">
+        </activity>
+        <activity android:name=".SKKSpeechRecognitionResultsList"
+            android:label="@string/label_speech_recognition_results"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/Theme.AppCompat.Light.Dialog">
+        </activity>
+    </application>
+
+</manifest>

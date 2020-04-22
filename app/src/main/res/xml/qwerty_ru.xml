@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="9%p"
+    android:horizontalGap="0dip"
+    android:verticalGap="0dip"
+    android:keyHeight="1px"
+    >
+
+    <Row>
+        <Key android:codes="1081" android:keyLabel="й" android:keyWidth="10%p"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="1" android:keyEdgeFlags="left"/>
+        <Key android:codes="1094" android:keyLabel="ц"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="2Ⱌ" />
+        <Key android:codes="1091" android:keyLabel="у"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="3у́ⰖѫⰨѭⰩ" />
+        <Key android:codes="1082" android:keyLabel="к"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="4Ⰽ" />
+        <Key android:codes="1077" android:keyLabel="е"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="5ѐёⰅѣⰡ" />
+        <Key android:codes="1085" android:keyLabel="н"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="6Ⱀ" />
+        <Key android:codes="1075" android:keyLabel="г"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="7ґⰃ" />
+        <Key android:codes="1096" android:keyLabel="ш"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="8Ⱎ" />
+        <Key android:codes="1097" android:keyLabel="щ"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="9Ⱋ" />
+        <Key android:codes="1079" android:keyLabel="з"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="0ⰈѕⰇ" />
+        <Key android:codes="1093" android:keyLabel="х" android:keyWidth="10%p"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="Ⱈ" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="1092" android:keyLabel="ф" android:keyWidth="10%p"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="ⰗѳⰪ"  android:keyEdgeFlags="left"/>
+        <Key android:codes="1099" android:keyLabel="ы"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="ӹ́ⰟⰊ" />
+        <Key android:codes="1074" android:keyLabel="в"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="ⰂѵⰫ" />
+        <Key android:codes="1072" android:keyLabel="а"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="ӑӓӕ́Ⰰ" />
+        <Key android:codes="1087" android:keyLabel="п"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="Ⱂ" />
+        <Key android:codes="1088" android:keyLabel="р"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="Ⱃ" />
+        <Key android:codes="1086" android:keyLabel="о"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="ӧ́ⰑѡѿⰙ" />
+        <Key android:codes="1083" android:keyLabel="л"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="Ⰾ" />
+        <Key android:codes="1076" android:keyLabel="д"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="Ⰴ" />
+        <Key android:codes="1078" android:keyLabel="ж"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="Ⰶ" />
+        <Key android:codes="1101" android:keyLabel="э" android:keyWidth="10%p"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="єӭ́ѥⰦ" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row android:keyWidth="8%p">
+        <Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift"
+            android:keyWidth="14%p" android:isModifier="true"
+            android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:codes="1103" android:keyLabel="я"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="́ѧⰤѩⰧ" />
+        <Key android:codes="1095" android:keyLabel="ч"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="ⰝћђⰌ" />
+        <Key android:codes="1089" android:keyLabel="с"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="Ⱄ" />
+        <Key android:codes="1084" android:keyLabel="м"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="Ⰿ" />
+        <Key android:codes="1080" android:keyLabel="и"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="́ⰋіⰉⰊї" />
+        <Key android:codes="1090" android:keyLabel="т"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="Ⱅ" />
+        <Key android:codes="1100" android:keyLabel="ь"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="ⰠъⰟ" />
+        <Key android:codes="1073" android:keyLabel="б"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="Ⰱ" />
+        <Key android:codes="1102" android:keyLabel="ю"
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="́Ⱓ" />
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete"
+            android:keyWidth="14%p" android:keyEdgeFlags="right"
+            android:isRepeatable="true"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-1008" android:keyLabel="あア"
+            android:keyWidth="15%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="-1009" android:keyLabel="\?123" android:keyWidth="10%p"/>
+        <Key android:codes="44" android:keyLabel=","
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters=";" android:keyWidth="10%p"/>
+        <Key android:codes="32" android:keyLabel="Русский"
+            android:keyWidth="20%p" android:isRepeatable="true"/>
+        <Key android:codes="46" android:keyLabel="."
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters=":" android:keyWidth="10%p"/>
+        <Key android:codes="-1001" android:keyLabel="◀"
+            android:keyWidth="10%p" android:isRepeatable="true" />
+        <Key android:codes="-1002" android:keyLabel="▶"
+            android:keyWidth="10%p" android:isRepeatable="true" />
+        <Key android:codes="-1011" android:keyIcon="@drawable/sym_keyboard_return"
+            android:keyWidth="15%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

@@ -1,0 +1,2 @@
+rootProject.name='Android SKK'
+include ':app'

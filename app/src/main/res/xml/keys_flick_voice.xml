@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+	android:keyWidth="20%p"
+	android:horizontalGap="0dip"
+	android:verticalGap="0dip"
+	android:keyHeight="1px"
+	>
+	<Row>
+		<Key android:codes="0" />
+		<Key android:codes="0" />
+		<Key android:codes="0" />
+		<Key android:codes="0" />
+		<Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" android:isRepeatable="true" />
+	</Row>
+	<Row>
+		<Key android:codes="-1001" android:keyLabel="◀" android:isRepeatable="true" />
+		<Key android:codes="44" android:keyLabel="、" />
+		<Key android:codes="46" android:keyLabel="。" />
+		<Key android:codes="0" />
+		<Key android:codes="-1002" android:keyLabel="▶" android:isRepeatable="true" />
+	</Row>
+	<Row>
+		<Key android:codes="-1010" android:keyLabel="あア" />
+		<Key android:codes="91" android:keyLabel="「" />
+		<Key android:codes="93" android:keyLabel="」" />
+		<Key android:codes="63" android:keyLabel="？"/>
+		<Key android:codes="-1004" android:keyIcon="@drawable/sym_keyboard_space" />
+	</Row>
+	<Row android:rowEdgeFlags="bottom">
+		<Key android:codes="-1003" android:keyLabel="ABC" />
+		<Key android:codes="40" android:keyLabel="("/>
+		<Key android:codes="41" android:keyLabel=")" />
+		<Key android:codes="33" android:keyLabel="！"/>
+		<Key android:codes="-1007" android:keyIcon="@drawable/sym_keyboard_return" />
+	</Row>
+</Keyboard>
