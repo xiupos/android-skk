@@ -14,7 +14,7 @@
         <Key android:codes="101" android:keyLabel="e"
 			android:popupKeyboard="@xml/keys_popup" android:popupCharacters="3éèêěēë" />
         <Key android:codes="114" android:keyLabel="r"
-            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="4" />
+            android:popupKeyboard="@xml/keys_popup" android:popupCharacters="4ř" />
         <Key android:codes="116" android:keyLabel="t"
             android:popupKeyboard="@xml/keys_popup" android:popupCharacters="5ť" />
         <Key android:codes="121" android:keyLabel="y"
