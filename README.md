@@ -111,6 +111,11 @@ SKKについては [ニコニコ大百科](https://dic.nicovideo.jp/a/skk) が�
   - 追加機能を設定で有効・無効できるように (小文字キーの `w` など)
   - キーマップの追加
 
+## 謝辞
+
+2009年にSKKをAndroid用に実装し，ソースと詳説を公開してくださったminghai氏に感謝します．
+また，minghai氏のAndroid用SKKを大幅に改良し，同じくソースと詳説を公開してくださった海月玲二氏に感謝します．
+
 ## リンク
 
 - [minghai氏の SKK for Android](https://minghai.hatenadiary.org/entry/20090502/p1)
