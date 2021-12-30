@@ -21,18 +21,18 @@
 	<Preference
 		android:title="@string/label_dicmanager_activity" >
 		<intent android:action="android.intent.action.MAIN"
-				android:targetPackage="io.github.ha2zakura.androidskk"
-				android:targetClass="io.github.ha2zakura.androidskk.SKKDicManager" />
+				android:targetPackage="link.nombi.androidskklang"
+				android:targetClass="link.nombi.androidskklang.SKKDicManager" />
 	</Preference>
 	<Preference
 		android:title="@string/label_dictool_activity" >
 		<intent android:action="android.intent.action.MAIN"
-			android:targetPackage="io.github.ha2zakura.androidskk"
-			android:targetClass="io.github.ha2zakura.androidskk.SKKUserDicTool" />
+			android:targetPackage="link.nombi.androidskklang"
+			android:targetClass="link.nombi.androidskklang.SKKUserDicTool" />
 	</Preference>
 	<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
 		android:title="@string/label_pref_hardkeyboard">
-		<io.github.ha2zakura.androidskk.SetKeyPreference
+		<link.nombi.androidskklang.SetKeyPreference
 			android:key="@string/prefkey_kana_key"
 			android:title="かなキー"
 			android:summary="かなモードに移行するキー"
@@ -44,7 +44,7 @@
 			android:title="かなキーをトグルに"
 			android:summary="オンだと，かなモードでかなキーを押すとASCIIモードに戻ります"
 			android:defaultValue="true" />
-		<io.github.ha2zakura.androidskk.SetKeyPreference
+		<link.nombi.androidskklang.SetKeyPreference
 			android:key="@string/prefkey_cancel_key"
 			android:title="キャンセルキー"
 			android:dialogTitle="Press a key ..."
@@ -145,7 +145,7 @@
 		android:title="辞書ファイル解凍"
 		android:summary="最初に一回実行してください" >
 		<intent android:action="android.intent.action.MAIN"
-			android:targetPackage="io.github.ha2zakura.androidskk"
-			android:targetClass="io.github.ha2zakura.androidskk.SKKDicExtractActivity" />
+			android:targetPackage="link.nombi.androidskklang"
+			android:targetClass="link.nombi.androidskklang.SKKDicExtractActivity" />
 	</Preference>
 </PreferenceScreen>

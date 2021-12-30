@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<declare-styleable name="io.github.ha2zakura.androidskk">
+	<declare-styleable name="link.nombi.androidskklang">
 		<attr name="min" format="integer"/>
 		<attr name="step" format="integer"/>
 	</declare-styleable>
