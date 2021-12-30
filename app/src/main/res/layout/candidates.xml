@@ -18,7 +18,7 @@
 */
 -->
 
-<io.github.ha2zakura.androidskk.CandidateViewContainer
+<link.nombi.androidskklang.CandidateViewContainer
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="horizontal"
         android:layout_width="fill_parent"
@@ -34,7 +34,7 @@
 		android:clickable="true"
 		/>
 
-	<io.github.ha2zakura.androidskk.CandidateView
+	<link.nombi.androidskklang.CandidateView
 		android:id="@+id/candidates"
 		android:layout_width="0dp"
 		android:layout_height="wrap_content"
@@ -47,4 +47,4 @@
 		android:layout_height="fill_parent"
 		android:clickable="true"
 		/>
-</io.github.ha2zakura.androidskk.CandidateViewContainer>
+</link.nombi.androidskklang.CandidateViewContainer>

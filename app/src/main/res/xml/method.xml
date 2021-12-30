@@ -21,6 +21,6 @@
 <!-- for the Search Manager. -->
 
 <input-method xmlns:android="http://schemas.android.com/apk/res/android"
-	android:settingsActivity="io.github.ha2zakura.androidskk.SKKPrefs"
+	android:settingsActivity="link.nombi.androidskklang.SKKPrefs"
 	android:isDefault="true"
 />

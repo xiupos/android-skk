@@ -113,6 +113,6 @@ class SeekBarPreference(context: Context, attrs: AttributeSet) : DialogPreferenc
 
     companion object {
         private const val androidns = "http://schemas.android.com/apk/res/android"
-        private const val seekbarns = "http://schemas.android.com/apk/res/io.github.ha2zakura.androidskk"
+        private const val seekbarns = "http://schemas.android.com/apk/res/link.nombi.androidskklang"
     }
 }
