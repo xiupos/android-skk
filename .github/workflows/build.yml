@@ -16,15 +16,19 @@ jobs:
     steps:
       - name: Check out
         uses: actions/checkout@v1
+
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
           distribution: 'zulu'
           java-version: '11'
+
       - name: Build with Gradle
         run: ./gradlew assembleDebug
+
       - name: Rename apk file
         run: mv app/build/outputs/apk/debug/app-debug.apk app/build/outputs/apk/debug/android-skk.apk
+
       - name: Upload apk file
         uses: actions/upload-artifact@v1
         with:
