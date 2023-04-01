@@ -22,7 +22,7 @@
 
 ## インストール
 
-[GitHub Actions](https://github.com/ha2zakura/android-skk/actions) の Artifacts より最新版がダウンロードできます.
+[Release](https://github.com/xiupos/android-skk/releases)
 
 ビルドには [hkusu 氏作成のワークフロー](https://qiita.com/hkusu/items/30843c34f569d9a14fef) を使っています.
 
